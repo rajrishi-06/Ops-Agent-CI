@@ -1,11 +1,16 @@
 .main-screen {
 	position: relative;
+	display: flex;
 	min-width: 0;
 	min-height: 100dvh;
+	flex-direction: column;
 	padding: 16px;
 }
 
 .main-screen .toggle-button {
+	position: absolute;
+	top: 16px;
+	left: 16px;
 	display: grid;
 	width: 40px;
 	height: 40px;
@@ -25,3 +30,6 @@
 	stroke-linejoin: round;
 	stroke-width: 2;
 }
+
+
+

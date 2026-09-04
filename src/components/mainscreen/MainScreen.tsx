@@ -1,5 +1,6 @@
 import './MainScreen.css'
 import type { Dispatch, SetStateAction } from 'react'
+import Form from './form/Form'
 
 type MainScreenProps = {
     decide : boolean,
@@ -23,7 +24,7 @@ function MainScreen({decide, setDecide} : MainScreenProps) {
                     </svg>
                 </button>
             )}
-            
+            <Form />
         </main>
     )
 }
