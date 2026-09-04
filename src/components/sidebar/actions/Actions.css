@@ -1,0 +1,17 @@
+.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.actions button {
+    margin: 5px;
+    border: 0;
+    padding: 5px 5px 5px 10px;
+    background-color: beige;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+}
