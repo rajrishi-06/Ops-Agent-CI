@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import type { Dispatch, SetStateAction } from 'react'
 import './Sidebar.css'
 import Navbar from './navbar/Navbar'
 
 type SidebarProps = {
     decide : boolean, 
-    setDecide: React.Dispatch<React.SetStateAction<boolean>>;
+    setDecide: Dispatch<SetStateAction<boolean>>;
 };
 
 function Sidebar({decide, setDecide} : SidebarProps) {

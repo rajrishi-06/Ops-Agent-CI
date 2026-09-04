@@ -1,11 +1,13 @@
 .layout {
   display: grid;
+  min-height: 100dvh;
+  min-width: 0;
 }
 
 .layout.expanded {
-  grid-template-columns: 0.25fr 0.75fr;
+  grid-template-columns: 300px minmax(0, 1fr);
 }
 
 .layout.collapsed {
-  grid-template-columns: 0.025fr 0.975fr;
+  grid-template-columns: minmax(0, 1fr);
 }

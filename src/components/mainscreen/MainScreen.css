@@ -1,0 +1,27 @@
+.main-screen {
+	position: relative;
+	min-width: 0;
+	min-height: 100dvh;
+	padding: 16px;
+}
+
+.main-screen .toggle-button {
+	display: grid;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	place-items: center;
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+.main-screen .toggle-button svg {
+	width: 24px;
+	height: 24px;
+	fill: none;
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+}

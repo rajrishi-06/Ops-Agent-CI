@@ -8,12 +8,10 @@ function App() {
   const [decide, setDecide] = useState(true);
 
   return (
-    <>
-      <div className={`layout ${decide ? 'expanded' : 'collapsed'}`}>
-        <Sidebar decide={decide} setDecide={setDecide}/>
-        <MainScreen />
-      </div>
-    </>
+    <div className={`layout ${decide ? 'expanded' : 'collapsed'}`}>
+      {decide && <Sidebar decide={decide} setDecide={setDecide} />}
+      <MainScreen decide={decide} setDecide={setDecide} />
+    </div>
   )
 }
 
