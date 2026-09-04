@@ -1,0 +1,6 @@
+.set {
+    display: grid;
+    grid-template-rows: 4em 1fr;
+    height: 100dvh;
+    border-right: 2px solid black;
+}

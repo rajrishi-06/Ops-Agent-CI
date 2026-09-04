@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+.brand-logo, .hamburger {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
